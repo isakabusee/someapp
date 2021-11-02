@@ -15,7 +15,7 @@ const Button = () => {
 
     return(
         <div>
-            <h4>Count{value}</h4>
+            <h4>Count is {value}</h4>
             <button onClick={increaseCount}>+</button>
             <button onClick={decreaseCount}>-</button>
             <button onClick={() => setValue(0)}>reset</button>
