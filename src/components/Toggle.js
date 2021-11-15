@@ -11,7 +11,7 @@ class Toggle extends React.Component {
     }
 
     render() {
-        const { isOff } = this.state;
+        // const { isOff } = this.state;
         let title=this.state.isOff? "ON": "OFF";
         return(
             <div className="buttonOn">
