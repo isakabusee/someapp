@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
 
 
-
-
-
-
-
 const Greet = () => {
     const [firstName, setFirstName] = useState("");
     const [showing, setShowing] = useState("Guest");
     
-
 
     const handleName = (e) => {
         setFirstName(e.target.value);
